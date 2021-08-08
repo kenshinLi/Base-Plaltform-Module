@@ -1,0 +1,11 @@
+.vs/
+
+packages/
+01.Application/**/bin/
+01.Application/**/obj/
+02.Service/**/bin/
+02.Service/**/obj/
+03.External/**/bin/
+03.External/**/obj/
+bin/
+obj/

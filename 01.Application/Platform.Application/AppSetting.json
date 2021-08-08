@@ -1,0 +1,34 @@
+﻿{
+  "WebApiURL": "http://localhost:10000/",
+  "ControllerNameList": [
+    "Agent"
+  ],
+  "ConnectionStrings": {
+    "PLATFORM": {
+      "DbType": "SqlServer",
+      "MasterConnectionString": "Data Source=localhost,1433;Initial Catalog=DB;User ID=sa;1234;Connect Timeout=30",
+      "SlaveConnectionString": [ "Data Source=localhost,1433;Initial Catalog=DB;User ID=sa;Password=1234;Connect Timeout=30;ApplicationIntent=ReadOnly;" ]
+    }
+  },
+  "APIs": {
+    "MEMBER_SERVICE": {
+      "Url": "http://localhost:20000/",
+      "Path": "/api/Member/Execute"
+    },
+    "LOGIN_SERVICE": {
+      "Path": "/api/Login"
+    }
+  },
+  "CustomSetting": {
+  },
+  "RedisConfigs": {
+    "AGENT": {
+      "Address": "127.0.0.1",
+      "Port": 6379,
+      "Index": 0,
+      "Timeout": 500
+    }
+  },
+  "CacheTimes": {
+  }
+}

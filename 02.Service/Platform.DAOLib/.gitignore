@@ -1,0 +1,8 @@
+.vs/
+
+packages/
+01.Application/**/bin/
+01.Application/**/obj/
+bin/
+obj/
+01.Application/GamePlatform.WebApplication/Properties/PublishProfiles/FolderProfile.pubxml.user

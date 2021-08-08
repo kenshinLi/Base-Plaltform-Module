@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PlatformSystem.ServiceLib.Define
+{
+    public enum LobbyServiceCommandID
+    {
+        AGENT_MEMBER_LOGIN = 1000,
+
+        GET_MEMBER_INFO = 1001,
+        GET_GAME_LIST = 1002,
+        GET_MEMBER_CREDIT = 1003,
+        GET_MEMBER_DETAIL = 1004,
+        SAVE_MEMBER_UI_SETTING = 1005,
+        BIND_MEMBER_ACCOUNT = 1006,
+        CHANGE_PASSWORD = 1007,
+        BIND_MOBILE_NUMBER = 1008,
+        COMFIRM_BIND_MOBILE_NUMBER = 1009,
+        BIND_FACEBOOK = 1010,
+        SETUP_SECOND_PASSWORD = 1011,
+        SETUP_MEMBER_INFO = 1012,
+        GET_ALLOW_GAME_GROUP = 1015,
+
+        GET_RELATIONSHIP_LIST = 1101,
+        UPDATE_MEMBER_RELATION = 1102,        
+        ADD_TRUSTED = 1103,
+        REMOVE_TRUSTED = 1104,
+        GET_OTHER_MEMBER_DETAIL = 1105,
+        SEARCH_OTHER_MEMBER = 1106,
+        GET_OTHER_MEMBER_INFO_LIST = 1107,
+
+        INITIATE_TRANSFERATION = 1201,
+        CONFIRM_TRANSFERATION = 1202,
+        VERIFY_TRANSFERATION = 1203,
+        GET_TRANSFERATION_LIST = 1204,
+        GET_TRANSFERATION_DETAIL = 1205,
+        GET_MEMBER_TRANSFER_RESTRICTION = 1206,
+
+
+        GET_MEMBER_TRANSCATION_LIST = 1301,
+        EXCHANGE_POINT_AND_ITEM = 1302,
+
+        SEND_MAIL = 1401,
+        GET_INBOX = 1402,
+        GET_OUTBOX = 1403,
+        GET_MAIL = 1404,
+        DELETE_MAIL = 1405,
+
+        GET_AVAILABLE_IM_CHANNEL_LIST = 1501,
+        CREATE_PRIVATE_IM_CHANNEL = 1502,
+        JOIN_IM_CHANNEL = 1503,
+        GET_IM_CHANNEL_DETAIL = 1504,
+        LEAVE_IM_CHANNEL = 1505,
+        SEND_INSTANT_MESSAGE = 1506,
+        REFLASH_INSTANT_MESSAGE = 1507,
+        // 刷新頻道清單狀態
+        REFRESH_CHANNEL_LIST_STATUS = 1508,
+
+        GET_WAGER_PAGE = 1601,
+
+        GET_RICHEST_MEMBER_LIST = 1701,
+        GET_VIP_MAPPING = 1702,
+    }
+}
